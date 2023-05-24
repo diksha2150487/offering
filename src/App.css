@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box1 {
+  background-color: #202020;
+}
+.box1 h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  line-height: 40px;
+  text-align: center;
+}
+.paper_main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-top: 2rem; */
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding-bottom: 5rem;
+}
+.first1 {
+  /* background-color: #83adff; */
+  height: 240px;
+  border-radius: 5px;
+  width: 220px;
+  padding: 10px;
+  /* padding-top: 1rem; */
+  padding-bottom: 3rem;
+  align-items: center;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.first1 h5 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  line-height: 34px;
+  align-items: center;
+  color: #010c1e;
+  opacity: 0.8;
+  padding-bottom: 2rem;
+}
+.startup {
+  width: 52px;
+  margin-top: 4rem;
+}
+#enterprise {
+  background-color: #83adff;
+}
+#moblie {
+  background-color: #ffdc60;
+}
+#website {
+  background-color: #59c9da;
+}
+#Analytics {
+  background-color: #ffadad;
+}
+#it {
+  background-color: #a8c8f4;
+}
+#Graphic {
+  background-color: #a8c8f4;
+}
+#Digital {
+  background-color: #ffadad;
+}
+#ux {
+  background-color: #ffdc60;
+}
+#video {
+  background-color: #83adff;
+}
+#branding {
+  background-color: #59c9da;
+}
+.oneline {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 40rem;
+  margin-right: 2rem; */
+}

@@ -5,6 +5,7 @@
 }
 .box1 {
   background-color: #202020;
+  position: relative;
 }
 .box1 h3 {
   color: white;
@@ -22,38 +23,37 @@
   /* margin-top: 2rem; */
   margin-right: 2rem;
   margin-left: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 .first1 {
-  /* background-color: #83adff; */
-  height: 240px;
+  height: 200px;
+  padding: 5px;
   border-radius: 5px;
   width: 220px;
-  padding: 10px;
-  /* padding-top: 1rem; */
-  padding-bottom: 3rem;
+  padding-left: 20px;
+
+  padding-right: 20px;
   align-items: center;
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
+  z-index: 2;
 }
 .first1 h5 {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  font-weight: 500;
+  font-weight: 300;
   margin-top: 1.5rem;
-  line-height: 34px;
+  line-height: 25px;
   align-items: center;
   color: #010c1e;
   opacity: 0.8;
-  padding-bottom: 2rem;
 }
 .startup {
-  width: 52px;
-  margin-top: 4rem;
+  width: 45px;
 }
 #enterprise {
   background-color: #83adff;
@@ -90,4 +90,26 @@
   justify-content: center;
   /* margin-left: 40rem;
   margin-right: 2rem; */
+}
+.oneline > h3 {
+  text-align: center;
+}
+.oneline > img {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  right: 20px;
+  top: 3rem;
+}
+
+.rline {
+  top: 25rem;
+  position: absolute;
+  max-width: 700px;
+}
+.wline {
+  position: absolute;
+  top: 16rem;
+  z-index: 0;
+  width: 100%;
 }
